@@ -28,12 +28,17 @@ Embark also includes focus tools for reducing distractions, magnet-style window 
 
 ### Magnet
 
-<img src="./docs/assets/feature_magnet.png" alt="Magnet feature screenshot" width="100%">
-<video src="./docs/assets/feature_magnet.mp4" controls muted playsinline width="100%"></video>
+<a href="./docs/assets/feature_magnet.mp4">
+  <img src="./docs/assets/feature_magnet.png" alt="Magnet feature screenshot" width="100%">
+</a>
+<p align="center"><a href="./docs/assets/feature_magnet.mp4">Open video</a></p>
 
 ### Space
 
-<video src="./docs/assets/feature_space.mp4" controls muted playsinline width="100%"></video>
+<a href="./docs/assets/feature_space.mp4">
+  <img src="./docs/assets/feature_space.png" alt="Space feature screenshot" width="100%">
+</a>
+<p align="center"><a href="./docs/assets/feature_space.mp4">Open video</a></p>
 
 ## Download
 

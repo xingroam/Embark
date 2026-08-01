@@ -3,6 +3,7 @@ import SwiftUI
 struct EmbarkInfo {
   static let name = { Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as? String ?? "App" }()
   static let version = { Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "" }()
+  static let buildNumber = { Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "" }()
   static let bundleIdentifier = { Bundle.main.bundleIdentifier ?? "" }()
   static let bundleIdentifierLowercased = { Bundle.main.bundleIdentifier?.lowercased() ?? "" }()
   static let website = "https://github.com/potor-com/Embark"
@@ -14,6 +15,10 @@ struct EmbarkInfo {
 
   static let embarkJson = "https://potor-com.github.io/Embark/embark.json"
   static let embarkJsonHour = 24
+
+  static var currentYear: String {
+    String(Calendar.current.component(.year, from: Date()))
+  }
 }
 
 struct EmbarkConfig {

@@ -26,7 +26,7 @@ struct SettingAboutView: View {
           Text(EmbarkInfo.name)
             .font(.system(size: 28, weight: .bold))
             .foregroundColor(.primary)
-          Text(String(format: languageManager.localizedString("embark.about.version"), EmbarkInfo.version))
+          Text(String(format: languageManager.localizedString("embark.about.version"), versionText))
             .font(.system(size: 14, weight: .medium))
             .foregroundColor(.secondary)
         }
@@ -120,9 +120,21 @@ struct SettingAboutView: View {
         .buttonStyle(PlainButtonStyle())
       }
       .settingStyle()
+      .padding(.bottom, 12)
+      Text("©️ \(EmbarkInfo.currentYear) Potor")
+        .font(.system(size: 12))
+        .foregroundColor(.secondary)
+        .padding(.bottom, 8)
       Spacer()
     }
     .padding(.horizontal, 40)
     .padding(.vertical, 15)
+  }
+
+  private var versionText: String {
+    guard !EmbarkInfo.buildNumber.isEmpty else {
+      return EmbarkInfo.version
+    }
+    return "\(EmbarkInfo.version) (\(EmbarkInfo.buildNumber))"
   }
 }

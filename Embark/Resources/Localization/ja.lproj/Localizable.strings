@@ -1,0 +1,374 @@
+/* App Embark */
+"embark.config.theme.system" = "システム";
+"embark.config.theme.light" = "ライト";
+"embark.config.theme.dark" = "ダーク";
+
+"embark.struct.settings.tab.general" = "一般";
+"embark.struct.settings.tab.about" = "について";
+"embark.struct.feature.launcher.title" = "Launcher";
+"embark.struct.feature.swift.title" = "Swift";
+"embark.struct.feature.magnet.title" = "Magnet";
+"embark.struct.feature.space.title" = "Space";
+"embark.struct.feature.focus.title" = "Focus";
+"embark.struct.feature.slide.title" = "Slide";
+"embark.struct.feature.switcher.title" = "Switcher";
+
+"embark.appsettings.window.title" = "設定";
+"embark.featurecenter.window.title" = "機能センター";
+"embark.updatedialog.window.title" = "%@ 更新を確認";
+
+"embark.appsettings.general.launch_at_login" = "ログイン時に起動";
+"embark.appsettings.general.launch_at_login.subtitle" = "システム起動時にアプリケーションを自動実行";
+"embark.appsettings.general.language" = "言語";
+"embark.appsettings.general.language.subtitle" = "アプリケーションインターフェースの言語を選択";
+"embark.appsettings.general.language.changed.message" = "言語の変更はアプリケーションの再起動後に有効になります";
+"embark.appsettings.general.language.changed.restart" = "今すぐ再起動";
+"embark.appsettings.general.language.changed.later" = "後で";
+"embark.appsettings.general.theme" = "テーマ";
+"embark.appsettings.general.theme.subtitle" = "アプリケーションの外観テーマを選択";
+"embark.appsettings.general.auto_check_update" = "自動更新確認";
+"embark.appsettings.general.auto_check_update.subtitle" = "有効にすると、アプリは定期的に最新バージョンの更新を確認します";
+"embark.appsettings.general.icon.title" = "アプリアイコン";
+
+"embark.update.dialog.checking" = "更新を確認中...";
+"embark.update.dialog.error.title" = "更新確認に失敗しました";
+"embark.update.dialog.retry" = "再試行";
+"embark.update.dialog.no_update.title" = "既に最新バージョンです";
+"embark.update.dialog.current_version" = "現在のバージョン";
+"embark.update.dialog.new_version" = "新バージョン";
+"embark.update.dialog.release_date" = "リリース日";
+"embark.update.dialog.force_update" = "強制更新";
+"embark.update.dialog.update_content" = "更新内容";
+"embark.update.dialog.install_update" = "更新をインストール";
+"embark.update.dialog.downloading" = "ダウンロード中...";
+"embark.update.dialog.skip_version" = "このバージョンをスキップ";
+"embark.update.dialog.download_progress" = "ダウンロード進捗";
+"embark.update.dialog.installing" = "更新をインストール中...";
+"embark.update.dialog.last_check" = "最終確認";
+
+"embark.about.version" = "バージョン %@";
+"embark.about.check_update" = "更新を確認";
+"embark.about.check_update.subtitle" = "新しいバージョンが利用可能かどうかを確認";
+"embark.about.check_update.now" = "今すぐ確認";
+"embark.about.website" = "公式ウェブサイト";
+"embark.about.feedback" = "フィードバック";
+"embark.about.sponsor_support" = "ご支援";
+"embark.about.privacy_policy" = "プライバシーポリシー";
+"embark.about.terms_of_service" = "利用規約";
+
+"embark.update.error.invalid_config_url" = "無効な更新設定URL";
+"embark.update.error.check_failed" = "更新チェックに失敗しました: %@";
+"embark.update.error.system_version_too_low" = "システムバージョンが低すぎます。この更新をインストールできません";
+"embark.update.error.invalid_download_url" = "無効なダウンロードURL";
+"embark.update.error.download_failed" = "ダウンロードに失敗しました: %@";
+"embark.update.error.invalid_download_file" = "ダウンロードされたファイルが無効です";
+"embark.update.error.unsupported_file_format" = "サポートされていないファイル形式: %@";
+"embark.update.error.dmg_mount_failed" = "DMGファイルのマウントに失敗しました。エラーコード: %@";
+"embark.update.error.dmg_mount_error" = "DMGファイルのマウントに失敗しました: %@";
+"embark.update.error.app_not_found_in_dmg" = "DMGファイルにアプリケーションが見つかりません";
+"embark.update.error.cannot_determine_install_dir" = "インストールディレクトリを特定できません";
+"embark.update.error.install_app_failed" = "アプリケーションのインストールに失敗しました: %@";
+"embark.update.error.save_update_file_failed" = "更新ファイルの保存に失敗しました: %@";
+"embark.update.error.download_file_validation_failed" = "ダウンロードされたファイルの検証に失敗しました";
+"embark.update.install.complete.message" = "新しいバージョンが正常にインストールされました。更新を適用するにはアプリケーションの再起動が必要です。";
+"embark.update.install.complete.restart_now" = "今すぐ再起動";
+"embark.update.install.complete.restart_later" = "後で再起動";
+
+"embark.statusbar.menu.app_settings" = "アプリ設定";
+"embark.statusbar.menu.check_update" = "更新を確認";
+"embark.statusbar.menu.about" = "について";
+"embark.statusbar.menu.quit" = "終了";
+"embark.statusbar.upgrade.title" = "Pro版にアップグレード";
+"embark.statusbar.upgrade.subtitle.trial" = "試用期間はあと%ld日";
+"embark.statusbar.upgrade.subtitle.free" = "フル体験をアンロック";
+
+"embark.onboarding.welcome" = "%@ へようこそ";
+"embark.onboarding.start" = "開始";
+"embark.onboarding.launch" = "アプリを起動";
+"embark.onboarding.config.title" = "初期設定";
+"embark.onboarding.permission.title" = "アクセシビリティ権限が必要です";
+"embark.onboarding.permission.subtitle" = "グローバルショートカットに必要です";
+"embark.onboarding.permission.open_settings" = "設定を開く";
+"embark.onboarding.permission.not_granted" = "アクセシビリティ権限がまだ付与されていません";
+
+/* App System */
+"system.message.save" = "保存";
+"system.message.update" = "更新";
+"system.message.confirm" = "確認";
+"system.message.cancel" = "キャンセル";
+"system.message.tip" = "操作チップを表示";
+"system.message.delay.seconds" = "%@秒";
+"system.message.not_found" = "データがありません";
+"system.message.add" = "追加";
+"system.message.loading" = "読み込み中...";
+"system.message.updating" = "更新中...";
+
+"system.info.ok" = "OK";
+"system.info.open" = "%@を開く";
+"system.info.enable" = "%@を有効";
+"system.info.auto" = "自動";
+"system.info.custom" = "カスタム";
+"system.info.none" = "なし";
+"system.info.features" = "機能";
+"system.info.rename" = "名前を変更";
+"system.info.delete" = "削除";
+
+"system.settings.exclude.title" = "除外するアプリ";
+"system.settings.exclude.empty" = "除外するアプリはありません";
+
+"system.certificate.expiration.title" = "開発証明書がまもなく期限切れになります";
+"system.certificate.expiration.message" = "開発証明書は %@ に期限切れになります（あと %@ 日）。\n\nアプリケーションを継続して使用するには、証明書を更新するか、開発者に連絡して新しいバージョンを入手してください。";
+"system.certificate.expiration.remind_later" = "後でリマインダー";
+"system.certificate.expiration.never_remind" = "再度リマインダーしない";
+
+"system.shortcut.dialog.title" = "ショートカット設定";
+"system.shortcut.dialog.recording" = "録音中... (クリックして停止)";
+"system.shortcut.dialog.click_to_set" = "クリックしてショートカットを設定";
+"system.shortcut.dialog.conflict_warning" = "ショートカットが他のアプリで使用されています、再設定してください";
+"system.shortcut.dialog.conflict_info" = "ショートカットが他のアプリ機能と競合しないことを確認してください";
+"system.shortcut.dialog.clear_shortcut" = "ショートカットをクリア";
+
+"system.permission.automation.required.title" = "オートメーション権限が必要です";
+"system.permission.automation.required.message" = "この機能は他のアプリケーションを制御するためにオートメーション権限が必要です。システム設定で権限を付与してください。";
+"system.permission.automation.open_settings" = "設定を開く";
+
+"system.systemui.title" = "システムUI";
+"system.systemui.showAll" = "すべて表示";
+"system.systemui.hideMenuBar" = "メニューバーを隠す";
+"system.systemui.hideDock" = "Dockを隠す";
+"system.systemui.hideBoth" = "メニューバーとDockを隠す";
+
+/* Mod Launcher */
+"launcher.install.panel.system" = "システム";
+"launcher.install.panel.work" = "仕事";
+"launcher.install.panel.entertainment" = "エンターテイメント";
+"launcher.install.panel.personal" = "個人";
+"launcher.install.panel.network" = "ネットワーク";
+"launcher.install.panel.folder" = "フォルダ";
+"launcher.install.panel.tools" = "ツール";
+
+"launcher.shortcut.dialog.title" = "ショートカットを設定";
+"launcher.shortcut.dialog.description" = "「%@」の起動ショートカットを設定";
+
+"launcher.settings.general.text_size" = "テキストサイズ: %@";
+"launcher.settings.general.tab_key" = "Tabキー";
+"launcher.settings.general.tab_key.disabled" = "無効";
+"launcher.settings.general.tab_key.to_search" = "検索へ";
+"launcher.settings.general.tab_key.bidirectional" = "双方向";
+"launcher.settings.general.search_scope" = "検索範囲";
+"launcher.settings.general.search_scope.all" = "すべてのアプリとリンク";
+"launcher.settings.general.search_scope.all_apps" = "すべてのアプリ";
+"launcher.settings.general.search_scope.other_apps" = "その他のアプリ";
+"launcher.settings.link.icon_size" = "アイコンサイズ: %@";
+"launcher.settings.panel.width" = "幅: %@";
+"launcher.settings.panel.background_stretch" = "背景を伸ばす";
+"launcher.settings.panel.text_bold" = "テキストを太字にする";
+"launcher.settings.link.thumbnails" = "サムネイルを表示";
+"launcher.settings.link.multi_line" = "複数行の名前";
+"launcher.settings.general.title" = "一般";
+"launcher.settings.button.general" = "一般";
+"launcher.settings.button.content" = "コンテンツ";
+"launcher.settings.general.shortcut.title" = "Launcherショートカット";
+"launcher.settings.general.shortcut.description" = "Launcherのショートカットは\"%@\"機能で設定されます";
+"launcher.settings.general.shortcut.go_to_settings" = "設定へ移動";
+"launcher.settings.background.title" = "背景";
+"launcher.settings.background.color" = "色";
+"launcher.settings.background.color_transparency" = "色透明度: %@%%";
+"launcher.settings.background.image" = "画像";
+"launcher.settings.background.image_select" = "画像を選択";
+"launcher.settings.background.image_transparency" = "画像透明度: %@%%";
+"launcher.settings.background.image_blur" = "画像ぼかし: %@";
+"launcher.settings.background.blur" = "全体ぼかし: %@%%";
+"launcher.settings.panel.title" = "パネル";
+"launcher.settings.panel.background_color" = "背景色";
+"launcher.settings.panel.text_color" = "テキスト色";
+"launcher.settings.panel.backgound_transparency" = "背景透明度: %@%%";
+"launcher.settings.link.title" = "リンク";
+"launcher.settings.link.text_color" = "テキスト色";
+"launcher.settings.link.background_color" = "背景カラー";
+"launcher.settings.link.backgound_transparency" = "背景透明度: %@%%";
+
+"launcher.proxy.host" = "ホスト";
+"launcher.proxy.port" = "ポート";
+"launcher.proxy.username_optional" = "ユーザー名（オプション）";
+"launcher.proxy.password_optional" = "パスワード（オプション）";
+
+"launcher.dialog.add.title" = "リンクを追加";
+"launcher.dialog.setting.title" = "リンクを設定";
+
+"launcher.panel.settings.add_folder" = "フォルダを追加";
+"launcher.panel.settings.add_file" = "ファイルを追加";
+"launcher.panel.settings.add_web" = "HandyWebを追加";
+"launcher.panel.settings.edit_name" = "名前を編集";
+"launcher.panel.settings.remove_panel" = "パネルを削除";
+"launcher.panel.settings.visible" = "表示";
+"launcher.panel.settings.invisible" = "非表示";
+"launcher.panel.settings.custom_width" = "カスタム幅";
+"launcher.panel.settings.drag_panel" = "パネルをドラッグ";
+"launcher.panel.width.dialog.title" = "カスタムパネル幅";
+"launcher.panel.width.dialog.panel" = "パネル: %@";
+"launcher.panel.width.dialog.custom_width" = "カスタム幅:";
+"launcher.panel.width.dialog.use_default" = "デフォルト幅を使用";
+"launcher.panel.drag.app_hint" = "アプリをここにドラッグ";
+"launcher.panel.dialog.edit_name.title" = "パネル名を編集";
+"launcher.panel.dialog.edit_name.field" = "パネル名";
+"launcher.panel.dialog.remove.title" = "パネル「%@」を削除しますか？";
+"launcher.panel.apps.title" = "アプリリスト";
+
+"launcher.link.context.add_to_panel" = "パネルに追加";
+"launcher.link.context.open_directory" = "ディレクトリを開く";
+"launcher.link.context.bind_shortcut" = "ショートカットをバインド";
+"launcher.link.context.custom_name" = "カスタム名";
+"launcher.link.context.settings" = "設定";
+"launcher.link.context.visible" = "表示";
+"launcher.link.context.invisible" = "非表示";
+"launcher.link.context.remove" = "削除";
+
+"launcher.add.folder.dialog.choose_folder" = "フォルダを選択";
+"launcher.add.folder.dialog.folder_path" = "フォルダパス";
+"launcher.add.file.dialog.choose_file" = "ファイルを選択";
+"launcher.add.file.dialog.file_path" = "ファイルパス";
+"launcher.add.panel.dialog.title" = "パネルを追加";
+"launcher.add.subpanel.dialog.title" = "サブパネルを追加";
+"launcher.add.web.updating" = "更新中...";
+"launcher.add.web.adding" = "追加中...";
+"launcher.add.web.use_proxy" = "プロキシを使用";
+"launcher.add.web.set_proxy" = "プロキシを設定";
+"launcher.add.web.show_in_menubar" = "メニューバーに表示";
+"launcher.add.web.dialog.title_placeholder" = "タイトル";
+"launcher.add.web.dialog.url_placeholder" = "URL (例: https://www.example.com)";
+
+"launcher.browser.pin.tooltip" = "ウィンドウをトップに固定";
+"launcher.browser.keepalive.tooltip" = "閉じたときにバックグラウンドでウィンドウをアクティブに保つ";
+"launcher.browser.menubar.tooltip" = "メニューバーに表示";
+"launcher.browser.mobilemode.tooltip" = "モバイル/デスクトップモードを切り替え";
+"launcher.browser.zoom" = "ズーム";
+"launcher.browser.set_default" = "デフォルトURLとして設定";
+"launcher.browser.copy_url" = "現在のURLをコピー";
+"launcher.browser.copied" = "クリップボードにコピーしました";
+"launcher.browser.clear_data" = "ウェブサイトデータをクリア";
+"launcher.browser.clear_all_data" = "すべてのウェブサイトデータをクリア";
+
+"launcher.dialog.custom_name.title" = "カスタム名";
+"launcher.dialog.add_panel.title" = "パネルを追加";
+"launcher.dialog.add_panel.field" = "パネル名";
+
+"launcher.loading.data" = "データを読み込み中...";
+
+"launcher.error.select_folder_failed" = "フォルダの選択に失敗しました: %@";
+"launcher.error.select_file_failed" = "ファイルの選択に失敗しました: %@";
+"launcher.error.path_not_exists" = "選択されたパスが存在しません";
+"launcher.error.path_not_folder" = "選択されたパスはフォルダではありません";
+"launcher.error.path_not_file" = "選択されたパスはファイルではありません";
+"launcher.error.title" = "エラー";
+
+/* Mod Swift */
+"swift.struct.maximize.mode.max" = "最大化";
+"swift.struct.maximize.mode.full" = "フルスクリーン";
+"swift.struct.close.mode.standard" = "標準";
+"swift.struct.close.mode.direct" = "直接";
+"swift.struct.close.mode.force" = "強制";
+
+"swift.settings.tab.window" = "ウィンドウ";
+"swift.settings.minimize" = "ウィンドウを最小化";
+"swift.settings.restore" = "ウィンドウを復元";
+"swift.settings.maximize" = "ウィンドウを最大化";
+"swift.settings.close" = "ウィンドウを閉じる";
+"swift.settings.tooltip" = "マウス位置のウィンドウに適用";
+
+"swift.keyboard.title" = "Swift キーボード";
+"swift.keyboard.settings.note" = "(ダブルタップ)";
+"swift.keyboard.settings.detection" = "キー検出";
+
+"swift.mouse.title" = "Swift マウス";
+"swift.mouse.settings.note" = "(右クリックジェスチャ)";
+"swift.mouse.settings.distance" = "トリガー距離";
+"swift.mouse.settings.show_path" = "Show Gesture Path";
+"swift.mouse.settings.path_transparency" = "パスの透明度";
+
+/* Mod Magnet */
+"magnet.settings.magnet_drag.title" = "ドラッグウィンドウ";
+"magnet.settings.magnet_drag.message" = "Magnet ドラッグ %@";
+"magnet.settings.magnet_resize.title" = "リサイズウィンドウ";
+"magnet.settings.magnet_resize.message" = "Magnet リサイズ %@";
+"magnet.settings.grid.title" = "グリッド";
+"magnet.settings.shortcut_info" = "+ マウス移動: ";
+"magnet.settings.magnet_drag.description" = "ウィンドウがマウス位置に従って移動します";
+"magnet.settings.magnet_resize.description" = "ウィンドウサイズがマウス位置に従って調整されます";
+"magnet.settings.grid.3x2" = "3x2グリッド";
+"magnet.settings.grid.4x4" = "4x4グリッド";
+"magnet.settings.grid.6x6" = "6x6グリッド";
+"magnet.settings.grid.8x8" = "8x8グリッド";
+"magnet.settings.grid.10x10" = "10x10グリッド";
+"magnet.settings.grid.12x12" = "12x12グリッド";
+"magnet.settings.grid.status.disabled" = "無効";
+"magnet.settings.grid.status.all_enabled" = "すべて有効";
+"magnet.settings.grid.status.partial_enabled" = "%@有効";
+
+/* Mod Slide */
+"slide.message.feasible" = "ドッキングを実現するには、ウィンドウの位置が画面の端にある必要があります";
+"slide.message.fullscreen" = "全画面ウィンドウは固定できません";
+
+"slide.settings.shortcut.description" = "画面端近くのウィンドウでショートカットを押してドッキングとアンドッキングを行います";
+"slide.settings.tolerance.title" = "トリガー判定距離";
+"slide.settings.margin.title" = "非表示ウィンドウマージン";
+"slide.settings.delay.title" = "トリガー判定時間";
+"slide.settings.auto_undock.title" = "ドラッグで自動固定解除";
+
+/* Mod Focus */
+"focus.settings.style.title" = "スタイル";
+"focus.settings.style.clean" = "クリーン";
+"focus.settings.style.dot" = "ドット";
+"focus.settings.style.grain" = "グレイン";
+"focus.settings.color.title" = "カラー";
+"focus.settings.color.solid" = "単色";
+"focus.settings.color.staticGradient" = "静的グラデーション";
+"focus.settings.color.dynamicGradient" = "動的グラデーション";
+"focus.settings.transparency.title" = "透明度";
+"focus.settings.blur.title" = "ぼかし";
+"focus.settings.animation.title" = "アニメーション";
+"focus.settings.animation.duration" = "期間";
+"focus.settings.top_transparent.title" = "トップ透明";
+"focus.settings.top_transparent.distance" = "距離";
+"focus.settings.shortcut.description" = "Focus 機能を有効または無効にするショートカット";
+
+/* Mod Switcher */
+"switcher.mode.select" = "選択";
+"switcher.mode.switch" = "切り替え";
+"switcher.settings.mode.title" = "モード";
+"switcher.settings.size.title" = "サイズ";
+"switcher.settings.width.title" = "幅";
+"switcher.settings.maxItemsPerColumn.title" = "列ごとの最大項目数";
+"switcher.settings.shortcut.description" = "ショートカットを使ってウィンドウを切り替える";
+"switcher.size.small" = "小";
+"switcher.size.medium" = "中";
+"switcher.size.large" = "大";
+
+/* Mod Space */
+"space.restore.mode.keep" = "他のウィンドウを保持";
+"space.restore.mode.minimize" = "他のウィンドウを最小化";
+"space.restore.mode.close" = "他のウィンドウを閉じる";
+"space.screen.title" = "画面";
+"space.screen.all" = "すべて";
+"space.screen.current" = "現在";
+"space.focus.mode.keep" = "操作なし";
+"space.focus.mode.enable" = "有効";
+"space.focus.mode.disable" = "無効";
+"space.snapshot.name" = "スナップショット名";
+"space.settings.restore.mode" = "復元モード";
+"space.settings.shortcut.description" = "ショートカットを使用して選択ウィンドウを開く";
+"space.settings.snapshots.title" = "スナップショット";
+"space.settings.snapshots.empty" = "まだスナップショットがありません";
+"space.settings.skip_minimized" = "最小化されたウィンドウをスキップ";
+"space.button.apps" = "アプリ";
+"space.button.screens" = "画面";
+"space.dialog.remove.title" = "スナップショット \"%@\" を削除してもよろしいですか？";
+"space.dialog.edit.title" = "スナップショット名を編集";
+"space.dialog.new" = "新規スナップショット";
+"space.dialog.update" = "スナップショットを編集";
+"space.dialog.duplicate" = "複製";
+"space.dialog.duplicate.title" = "スナップショットを複製";
+"space.legacy.title" = "古いデータ";
+"space.legacy.message" = "申し訳ありません! このバージョンのデータには信頼性の問題があります。削除して新しいスナップショットを作成してください。";
+"space.window.list" = "ウィンドウリスト";
+"space.window.empty" = "ウィンドウがありません";

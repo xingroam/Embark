@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Embark</title>
+        <item>
+            <title>1.1</title>
+            <pubDate>Sat, 01 Aug 2026 13:22:12 +0800</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/potor-com/Embark/releases/download/v1.1/Embark-1.1.dmg" length="7424615" type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>

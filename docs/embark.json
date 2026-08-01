@@ -1,0 +1,36 @@
+{
+  "Web": [
+    {
+      "Title": "Google",
+      "Url": "https://www.google.com/"
+    },
+    {
+      "Title": "Gemini",
+      "Url": "https://gemini.google.com/app"
+    },
+    {
+      "Title": "Grok",
+      "Url": "https://grok.com/"
+    },
+    {
+      "Title": "ChatGPT",
+      "Url": "https://chatgpt.com/"
+    },
+    {
+      "Title": "X",
+      "Url": "https://x.com/home"
+    },
+    {
+      "Title": "YouTube",
+      "Url": "https://www.youtube.com/"
+    },
+    {
+      "Title": "TikTok",
+      "Url": "https://www.tiktok.com/"
+    },
+    {
+      "Title": "Gmail",
+      "Url": "https://mail.google.com/"
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+/* App Embark */
+"embark.config.theme.system" = "Système";
+"embark.config.theme.light" = "Clair";
+"embark.config.theme.dark" = "Sombre";
+
+"embark.struct.settings.tab.general" = "Général";
+"embark.struct.settings.tab.about" = "À propos";
+"embark.struct.feature.launcher.title" = "Launcher";
+"embark.struct.feature.swift.title" = "Swift";
+"embark.struct.feature.magnet.title" = "Magnet";
+"embark.struct.feature.space.title" = "Space";
+"embark.struct.feature.focus.title" = "Focus";
+"embark.struct.feature.slide.title" = "Slide";
+"embark.struct.feature.switcher.title" = "Switcher";
+
+"embark.appsettings.window.title" = "Paramètres";
+"embark.featurecenter.window.title" = "Centre de Fonctionnalités";
+"embark.updatedialog.window.title" = "%@ Vérifier les Mises à Jour";
+
+"embark.appsettings.general.launch_at_login" = "Lancer à la Connexion";
+"embark.appsettings.general.launch_at_login.subtitle" = "Lancer automatiquement l'application au démarrage du système";
+"embark.appsettings.general.language" = "Langue";
+"embark.appsettings.general.language.subtitle" = "Choisir la langue de l'interface de l'application";
+"embark.appsettings.general.language.changed.message" = "Le changement de langue prendra effet après le redémarrage de l'application";
+"embark.appsettings.general.language.changed.restart" = "Redémarrer Maintenant";
+"embark.appsettings.general.language.changed.later" = "Plus Tard";
+"embark.appsettings.general.theme" = "Thème";
+"embark.appsettings.general.theme.subtitle" = "Choisir le thème d'apparence de l'application";
+"embark.appsettings.general.auto_check_update" = "Vérification Automatique des Mises à Jour";
+"embark.appsettings.general.auto_check_update.subtitle" = "Lorsqu'activé, l'application vérifiera périodiquement les mises à jour de la dernière version";
+"embark.appsettings.general.icon.title" = "Icône de l'app";
+
+"embark.update.dialog.checking" = "Vérification des mises à jour...";
+"embark.update.dialog.error.title" = "Échec de la Vérification des Mises à Jour";
+"embark.update.dialog.retry" = "Réessayer";
+"embark.update.dialog.no_update.title" = "Déjà la Version la Plus Récente";
+"embark.update.dialog.current_version" = "Version Actuelle";
+"embark.update.dialog.new_version" = "Nouvelle Version";
+"embark.update.dialog.release_date" = "Date de Sortie";
+"embark.update.dialog.force_update" = "Mise à Jour Forcée";
+"embark.update.dialog.update_content" = "Contenu de la Mise à Jour";
+"embark.update.dialog.install_update" = "Installer la Mise à Jour";
+"embark.update.dialog.downloading" = "Téléchargement...";
+"embark.update.dialog.skip_version" = "Ignorer cette version";
+"embark.update.dialog.download_progress" = "Progression du téléchargement";
+"embark.update.dialog.installing" = "Installation de la mise à jour...";
+"embark.update.dialog.last_check" = "Dernière vérification";
+
+"embark.about.version" = "Version %@";
+"embark.about.check_update" = "Vérifier les Mises à Jour";
+"embark.about.check_update.subtitle" = "Vérifier s'il y a de nouvelles versions disponibles";
+"embark.about.check_update.now" = "Vérifier Maintenant";
+"embark.about.website" = "Site Web Officiel";
+"embark.about.feedback" = "Envoyer des Commentaires";
+"embark.about.sponsor_support" = "Soutenez-nous";
+"embark.about.privacy_policy" = "Politique de Confidentialité";
+"embark.about.terms_of_service" = "Conditions d'Utilisation";
+
+"embark.update.error.invalid_config_url" = "URL de configuration de mise à jour invalide";
+"embark.update.error.check_failed" = "Échec de la vérification des mises à jour : %@";
+"embark.update.error.system_version_too_low" = "Version du système trop basse, impossible d'installer cette mise à jour";
+"embark.update.error.invalid_download_url" = "URL de téléchargement invalide";
+"embark.update.error.download_failed" = "Échec du téléchargement : %@";
+"embark.update.error.invalid_download_file" = "Fichier téléchargé invalide";
+"embark.update.error.unsupported_file_format" = "Format de fichier non pris en charge : %@";
+"embark.update.error.dmg_mount_failed" = "Échec du montage du fichier DMG, code d'erreur : %@";
+"embark.update.error.dmg_mount_error" = "Échec du montage du fichier DMG : %@";
+"embark.update.error.app_not_found_in_dmg" = "Application non trouvée dans le fichier DMG";
+"embark.update.error.cannot_determine_install_dir" = "Impossible de déterminer le répertoire d'installation";
+"embark.update.error.install_app_failed" = "Échec de l'installation de l'application : %@";
+"embark.update.error.save_update_file_failed" = "Échec de la sauvegarde du fichier de mise à jour : %@";
+"embark.update.error.download_file_validation_failed" = "Échec de la validation du fichier téléchargé";
+"embark.update.install.complete.message" = "La nouvelle version a été installée avec succès. Un redémarrage de l'application est nécessaire pour appliquer la mise à jour.";
+"embark.update.install.complete.restart_now" = "Redémarrer maintenant";
+"embark.update.install.complete.restart_later" = "Redémarrer plus tard";
+
+"embark.statusbar.menu.app_settings" = "Paramètres de l'App";
+"embark.statusbar.menu.check_update" = "Vérifier les Mises à Jour";
+"embark.statusbar.menu.about" = "À Propos";
+"embark.statusbar.menu.quit" = "Quitter";
+"embark.statusbar.upgrade.title" = "Passer à Pro";
+"embark.statusbar.upgrade.subtitle.trial" = "La période d'essai se termine dans %ld jours";
+"embark.statusbar.upgrade.subtitle.free" = "Débloquer l'expérience complète";
+
+"embark.onboarding.welcome" = "Bienvenue sur %@";
+"embark.onboarding.start" = "Commencer";
+"embark.onboarding.launch" = "Lancer l'app";
+"embark.onboarding.config.title" = "Configuration initiale";
+"embark.onboarding.permission.title" = "Autorisation d'accessibilité requise";
+"embark.onboarding.permission.subtitle" = "Requis pour les raccourcis globaux";
+"embark.onboarding.permission.open_settings" = "Ouvrir Réglages";
+"embark.onboarding.permission.not_granted" = "Autorisation d'accessibilité non accordée";
+
+/* App System */
+"system.message.save" = "Enregistrer";
+"system.message.update" = "Mettre à jour";
+"system.message.confirm" = "Confirmer";
+"system.message.cancel" = "Annuler";
+"system.message.tip" = "Afficher les Conseils d'Opération";
+"system.message.delay.seconds" = "%@s";
+"system.message.not_found" = "Aucune donnée disponible";
+"system.message.add" = "Ajouter";
+"system.message.loading" = "Chargement...";
+"system.message.updating" = "Mise à jour...";
+
+"system.info.ok" = "OK";
+"system.info.open" = "Ouvrir %@";
+"system.info.enable" = "Activer %@";
+"system.info.auto" = "Automatique";
+"system.info.custom" = "Personnalisé";
+"system.info.none" = "Aucun";
+"system.info.features" = "Fonctionnalités";
+"system.info.rename" = "Renommer";
+"system.info.delete" = "Supprimer";
+
+"system.settings.exclude.title" = "Exclure les Applications";
+"system.settings.exclude.empty" = "Aucune application exclue";
+
+"system.certificate.expiration.title" = "Certificat de développement expire bientôt";
+"system.certificate.expiration.message" = "Votre certificat de développement expirera le %@ (dans %@ jours).\n\nPour continuer à utiliser l'application, veuillez mettre à jour le certificat ou contacter le développeur pour une nouvelle version.";
+"system.certificate.expiration.remind_later" = "Rappeler plus tard";
+"system.certificate.expiration.never_remind" = "Ne plus rappeler";
+
+"system.shortcut.dialog.title" = "Définir le raccourci";
+"system.shortcut.dialog.recording" = "Enregistrement... (Cliquer pour arrêter)";
+"system.shortcut.dialog.click_to_set" = "Cliquer pour définir le raccourci";
+"system.shortcut.dialog.conflict_warning" = "Le raccourci est utilisé par d'autres applications, veuillez le redéfinir";
+"system.shortcut.dialog.conflict_info" = "Assurez-vous que le raccourci ne entre pas en conflit avec d'autres fonctionnalités d'application";
+"system.shortcut.dialog.clear_shortcut" = "Effacer le raccourci";
+
+"system.permission.automation.required.title" = "Autorisation d'automatisation requise";
+"system.permission.automation.required.message" = "Cette fonctionnalité nécessite une autorisation d'automatisation pour contrôler d'autres applications. Veuillez accorder l'autorisation dans les Réglages Système.";
+"system.permission.automation.open_settings" = "Ouvrir les réglages";
+
+"system.systemui.title" = "Interface système";
+"system.systemui.showAll" = "Tout afficher";
+"system.systemui.hideMenuBar" = "Masquer la barre de menus";
+"system.systemui.hideDock" = "Masquer le Dock";
+"system.systemui.hideBoth" = "Masquer la barre de menus et le Dock";
+
+/* Mod Launcher */
+"launcher.install.panel.system" = "Système";
+"launcher.install.panel.work" = "Travail";
+"launcher.install.panel.entertainment" = "Divertissement";
+"launcher.install.panel.personal" = "Personnel";
+"launcher.install.panel.network" = "Réseau";
+"launcher.install.panel.folder" = "Dossier";
+"launcher.install.panel.tools" = "Outils";
+
+"launcher.shortcut.dialog.title" = "Définir le raccourci";
+"launcher.shortcut.dialog.description" = "Définir le raccourci de lancement pour \"%@\"";
+
+"launcher.settings.general.text_size" = "Taille du texte: %@";
+"launcher.settings.general.tab_key" = "Touche Tab";
+"launcher.settings.general.tab_key.disabled" = "Désactivé";
+"launcher.settings.general.tab_key.to_search" = "Vers la recherche";
+"launcher.settings.general.tab_key.bidirectional" = "Bidirectionnel";
+"launcher.settings.general.search_scope" = "Portée de recherche";
+"launcher.settings.general.search_scope.all" = "Toutes les apps et liens";
+"launcher.settings.general.search_scope.all_apps" = "Toutes les apps";
+"launcher.settings.general.search_scope.other_apps" = "Autres apps";
+"launcher.settings.link.icon_size" = "Taille de l'icône: %@";
+"launcher.settings.panel.width" = "Largeur: %@";
+"launcher.settings.panel.background_stretch" = "Étirer l'arrière-plan";
+"launcher.settings.panel.text_bold" = "Texte en gras";
+"launcher.settings.link.thumbnails" = "Afficher les vignettes";
+"launcher.settings.link.multi_line" = "Noms multi-lignes";
+"launcher.settings.general.title" = "Général";
+"launcher.settings.button.general" = "Général";
+"launcher.settings.button.content" = "Contenu";
+"launcher.settings.general.shortcut.title" = "Raccourci Launcher";
+"launcher.settings.general.shortcut.description" = "Le raccourci Launcher est configuré dans la fonction \"%@\"";
+"launcher.settings.general.shortcut.go_to_settings" = "Aller aux paramètres";
+"launcher.settings.background.title" = "Arrière-plan";
+"launcher.settings.background.color" = "Couleur";
+"launcher.settings.background.color_transparency" = "Transparence de couleur: %@%%";
+"launcher.settings.background.image" = "Image";
+"launcher.settings.background.image_select" = "Sélectionner une image";
+"launcher.settings.background.image_transparency" = "Transparence de l'image: %@%%";
+"launcher.settings.background.image_blur" = "Flou de l'image: %@";
+"launcher.settings.background.blur" = "Flou global: %@%%";
+"launcher.settings.panel.title" = "Panneau";
+"launcher.settings.panel.background_color" = "Couleur d'arrière-plan";
+"launcher.settings.panel.text_color" = "Couleur du texte";
+"launcher.settings.panel.backgound_transparency" = "Transparence d'arrière-plan: %@%%";
+"launcher.settings.link.title" = "Lien";
+"launcher.settings.link.text_color" = "Couleur du texte";
+"launcher.settings.link.background_color" = "Couleur d'arrière-plan";
+"launcher.settings.link.backgound_transparency" = "Transparence d'arrière-plan: %@%%";
+
+"launcher.proxy.host" = "Hôte";
+"launcher.proxy.port" = "Port";
+"launcher.proxy.username_optional" = "Nom d'utilisateur (optionnel)";
+"launcher.proxy.password_optional" = "Mot de passe (optionnel)";
+
+"launcher.dialog.add.title" = "Ajouter un lien";
+"launcher.dialog.setting.title" = "Définir un lien";
+
+"launcher.panel.settings.add_folder" = "Ajouter un dossier";
+"launcher.panel.settings.add_file" = "Ajouter un fichier";
+"launcher.panel.settings.add_web" = "Ajouter HandyWeb";
+"launcher.panel.settings.edit_name" = "Modifier le nom";
+"launcher.panel.settings.remove_panel" = "Supprimer le panneau";
+"launcher.panel.settings.visible" = "Visible";
+"launcher.panel.settings.invisible" = "Invisible";
+"launcher.panel.settings.custom_width" = "Largeur personnalisée";
+"launcher.panel.settings.drag_panel" = "Faire glisser le panneau";
+"launcher.panel.width.dialog.title" = "Largeur personnalisée du panneau";
+"launcher.panel.width.dialog.panel" = "Panneau: %@";
+"launcher.panel.width.dialog.custom_width" = "Largeur personnalisée:";
+"launcher.panel.width.dialog.use_default" = "Utiliser la largeur par défaut";
+"launcher.panel.drag.app_hint" = "Glissez les applications ici";
+"launcher.panel.dialog.edit_name.title" = "Modifier le nom du panneau";
+"launcher.panel.dialog.edit_name.field" = "Nom du panneau";
+"launcher.panel.dialog.remove.title" = "Confirmer la suppression du panneau \"%@\" ?";
+"launcher.panel.apps.title" = "Liste des applications";
+
+"launcher.link.context.add_to_panel" = "Ajouter au panneau";
+"launcher.link.context.open_directory" = "Ouvrir le répertoire";
+"launcher.link.context.bind_shortcut" = "Lier le raccourci";
+"launcher.link.context.custom_name" = "Nom personnalisé";
+"launcher.link.context.settings" = "Paramètres";
+"launcher.link.context.visible" = "Visible";
+"launcher.link.context.invisible" = "Invisible";
+"launcher.link.context.remove" = "Supprimer";
+
+"launcher.add.folder.dialog.choose_folder" = "Choisir un dossier";
+"launcher.add.folder.dialog.folder_path" = "Chemin du dossier";
+"launcher.add.file.dialog.choose_file" = "Choisir un fichier";
+"launcher.add.file.dialog.file_path" = "Chemin du fichier";
+"launcher.add.panel.dialog.title" = "Ajouter un panneau";
+"launcher.add.subpanel.dialog.title" = "Ajouter un sous-panneau";
+"launcher.add.web.updating" = "Mise à jour...";
+"launcher.add.web.adding" = "Ajout...";
+"launcher.add.web.use_proxy" = "Utiliser un proxy";
+"launcher.add.web.set_proxy" = "Configurer le proxy";
+"launcher.add.web.show_in_menubar" = "Afficher dans la barre de menus";
+"launcher.add.web.dialog.title_placeholder" = "Titre";
+"launcher.add.web.dialog.url_placeholder" = "URL (par ex. https://www.example.com)";
+
+"launcher.browser.pin.tooltip" = "Épingler la fenêtre en haut";
+"launcher.browser.keepalive.tooltip" = "Garder la fenêtre active en arrière-plan lors de la fermeture";
+"launcher.browser.menubar.tooltip" = "Afficher dans la barre de menus";
+"launcher.browser.mobilemode.tooltip" = "Basculer mode mobile/bureau";
+"launcher.browser.zoom" = "Zoom";
+"launcher.browser.set_default" = "Définir comme URL par défaut";
+"launcher.browser.copy_url" = "Copier l'URL actuelle";
+"launcher.browser.copied" = "Copié dans le presse-papiers";
+"launcher.browser.clear_data" = "Effacer les données du site Web";
+"launcher.browser.clear_all_data" = "Effacer toutes les données des sites Web";
+
+"launcher.dialog.custom_name.title" = "Nom personnalisé";
+"launcher.dialog.add_panel.title" = "Ajouter un panneau";
+"launcher.dialog.add_panel.field" = "Nom du panneau";
+
+"launcher.loading.data" = "Chargement des données...";
+
+"launcher.error.select_folder_failed" = "Échec de la sélection du dossier: %@";
+"launcher.error.select_file_failed" = "Échec de la sélection du fichier: %@";
+"launcher.error.path_not_exists" = "Le chemin sélectionné n'existe pas";
+"launcher.error.path_not_folder" = "Le chemin sélectionné n'est pas un dossier";
+"launcher.error.path_not_file" = "Le chemin sélectionné n'est pas un fichier";
+"launcher.error.title" = "Erreur";
+
+/* Mod Swift */
+"swift.struct.maximize.mode.max" = "Maximiser";
+"swift.struct.maximize.mode.full" = "Plein Écran";
+"swift.struct.close.mode.standard" = "Standard";
+"swift.struct.close.mode.direct" = "Direct";
+"swift.struct.close.mode.force" = "Forcé";
+
+"swift.settings.tab.window" = "Fenêtre";
+"swift.settings.minimize" = "Minimiser la Fenêtre";
+"swift.settings.restore" = "Restaurer la Fenêtre";
+"swift.settings.maximize" = "Maximiser la Fenêtre";
+"swift.settings.close" = "Fermer la Fenêtre";
+"swift.settings.tooltip" = "S'applique à la fenêtre à la position de la souris";
+
+"swift.keyboard.title" = "Clavier Swift";
+"swift.keyboard.settings.note" = "(Double tap)";
+"swift.keyboard.settings.detection" = "Détection de Touche";
+
+"swift.mouse.title" = "Souris Swift";
+"swift.mouse.settings.note" = "(Geste clic droit)";
+"swift.mouse.settings.distance" = "Distance de détection";
+"swift.mouse.settings.show_path" = "Show Gesture Path";
+"swift.mouse.settings.path_transparency" = "Transparence du chemin";
+
+/* Mod Magnet */
+"magnet.settings.magnet_drag.title" = "Fenêtre de glissement";
+"magnet.settings.magnet_drag.message" = "Glissement Magnet %@";
+"magnet.settings.magnet_resize.title" = "Fenêtre de redimensionnement";
+"magnet.settings.magnet_resize.message" = "Redimensionnement Magnet %@";
+"magnet.settings.grid.title" = "Grille";
+"magnet.settings.shortcut_info" = "+ Mouvement de Souris: ";
+"magnet.settings.magnet_drag.description" = "La fenêtre suivra la position de la souris";
+"magnet.settings.magnet_resize.description" = "La taille de la fenêtre suivra la position de la souris";
+"magnet.settings.grid.3x2" = "Grille 3x2";
+"magnet.settings.grid.4x4" = "Grille 4x4";
+"magnet.settings.grid.6x6" = "Grille 6x6";
+"magnet.settings.grid.8x8" = "Grille 8x8";
+"magnet.settings.grid.10x10" = "Grille 10x10";
+"magnet.settings.grid.12x12" = "Grille 12x12";
+"magnet.settings.grid.status.disabled" = "Désactivé";
+"magnet.settings.grid.status.all_enabled" = "Tout Activé";
+"magnet.settings.grid.status.partial_enabled" = "%@ Activé";
+
+/* Mod Slide */
+"slide.message.feasible" = "La position de la fenêtre doit être sur le bord de l'écran pour permettre l'ancrage";
+"slide.message.fullscreen" = "La fenêtre plein écran ne peut pas être ancrée";
+
+"slide.settings.shortcut.description" = "Appuyez sur le raccourci sur les fenêtres près des bords de l'écran pour les ancrer et les désancrer";
+"slide.settings.tolerance.title" = "Distance de Détection de Déclenchement";
+"slide.settings.margin.title" = "Marge de Fenêtre Cachée";
+"slide.settings.delay.title" = "Temps de Détection de Déclenchement";
+"slide.settings.auto_undock.title" = "Désancrage Automatique au Glissement";
+
+/* Mod Focus */
+"focus.settings.style.title" = "Motif";
+"focus.settings.style.clean" = "Net";
+"focus.settings.style.dot" = "Points";
+"focus.settings.style.grain" = "Granuleux";
+"focus.settings.color.title" = "Couleur";
+"focus.settings.color.solid" = "Solide";
+"focus.settings.color.staticGradient" = "Dégradé statique";
+"focus.settings.color.dynamicGradient" = "Dégradé dynamique";
+"focus.settings.transparency.title" = "Transparence";
+"focus.settings.blur.title" = "Flou";
+"focus.settings.animation.title" = "Animation";
+"focus.settings.animation.duration" = "Durée";
+"focus.settings.top_transparent.title" = "Haut transparent";
+"focus.settings.top_transparent.distance" = "Distance";
+"focus.settings.shortcut.description" = "Raccourci pour activer ou désactiver la fonction Focus";
+
+/* Mod Switcher */
+"switcher.mode.select" = "Sélectionner";
+"switcher.mode.switch" = "Basculer";
+"switcher.settings.mode.title" = "Mode";
+"switcher.settings.size.title" = "Taille";
+"switcher.settings.width.title" = "Largeur";
+"switcher.settings.maxItemsPerColumn.title" = "Max éléments par colonne";
+"switcher.settings.shortcut.description" = "Utilisez le raccourci pour changer de fenêtre";
+"switcher.size.small" = "Petit";
+"switcher.size.medium" = "Moyen";
+"switcher.size.large" = "Grand";
+
+/* Mod Space */
+"space.restore.mode.keep" = "Garder les autres fenêtres";
+"space.restore.mode.minimize" = "Réduire les autres fenêtres";
+"space.restore.mode.close" = "Fermer les autres fenêtres";
+"space.screen.title" = "Écran";
+"space.screen.all" = "Tous";
+"space.screen.current" = "Actuel";
+"space.focus.mode.keep" = "Aucune action";
+"space.focus.mode.enable" = "Activer";
+"space.focus.mode.disable" = "Désactiver";
+"space.snapshot.name" = "Nom de l'instantané";
+"space.settings.restore.mode" = "Mode de Restauration";
+"space.settings.shortcut.description" = "Utilisez le raccourci pour ouvrir la fenêtre de sélection";
+"space.settings.snapshots.title" = "Instantanés";
+"space.settings.snapshots.empty" = "Aucun instantané pour le moment";
+"space.settings.skip_minimized" = "Ignorer les fenêtres minimisées";
+"space.button.apps" = "Apps";
+"space.button.screens" = "Écrans";
+"space.dialog.remove.title" = "Êtes-vous sûr de vouloir supprimer l'instantané \"%@\" ?";
+"space.dialog.edit.title" = "Modifier le nom de l'instantané";
+"space.dialog.new" = "Nouvel instantané";
+"space.dialog.update" = "Modifier l'instantané";
+"space.dialog.duplicate" = "Dupliquer";
+"space.dialog.duplicate.title" = "Dupliquer l'instantané";
+"space.legacy.title" = "Données obsolètes";
+"space.legacy.message" = "Désolé! Cette version des données présente des problèmes de fiabilité. Veuillez supprimer et créer un nouveau snapshot.";
+"space.window.list" = "Liste des fenêtres";
+"space.window.empty" = "Aucune fenêtre";

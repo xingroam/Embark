@@ -1,0 +1,374 @@
+/* App Embark */
+"embark.config.theme.system" = "시스템";
+"embark.config.theme.light" = "밝은";
+"embark.config.theme.dark" = "어두운";
+
+"embark.struct.settings.tab.general" = "일반";
+"embark.struct.settings.tab.about" = "정보";
+"embark.struct.feature.launcher.title" = "Launcher";
+"embark.struct.feature.swift.title" = "Swift";
+"embark.struct.feature.magnet.title" = "Magnet";
+"embark.struct.feature.space.title" = "Space";
+"embark.struct.feature.focus.title" = "Focus";
+"embark.struct.feature.slide.title" = "Slide";
+"embark.struct.feature.switcher.title" = "Switcher";
+
+"embark.appsettings.window.title" = "설정";
+"embark.featurecenter.window.title" = "기능 센터";
+"embark.updatedialog.window.title" = "%@ 업데이트 확인";
+
+"embark.appsettings.general.launch_at_login" = "로그인 시 시작";
+"embark.appsettings.general.launch_at_login.subtitle" = "시스템 시작 시 애플리케이션을 자동으로 실행";
+"embark.appsettings.general.language" = "언어";
+"embark.appsettings.general.language.subtitle" = "애플리케이션 인터페이스 언어 선택";
+"embark.appsettings.general.language.changed.message" = "언어 변경은 애플리케이션 재시작 후에 적용됩니다";
+"embark.appsettings.general.language.changed.restart" = "지금 재시작";
+"embark.appsettings.general.language.changed.later" = "나중에";
+"embark.appsettings.general.theme" = "테마";
+"embark.appsettings.general.theme.subtitle" = "애플리케이션 외관 테마 선택";
+"embark.appsettings.general.auto_check_update" = "자동 업데이트 확인";
+"embark.appsettings.general.auto_check_update.subtitle" = "활성화하면 앱이 정기적으로 최신 버전 업데이트를 확인합니다";
+"embark.appsettings.general.icon.title" = "앱 아이콘";
+
+"embark.update.dialog.checking" = "업데이트 확인 중...";
+"embark.update.dialog.error.title" = "업데이트 확인 실패";
+"embark.update.dialog.retry" = "다시 시도";
+"embark.update.dialog.no_update.title" = "이미 최신 버전입니다";
+"embark.update.dialog.current_version" = "현재 버전";
+"embark.update.dialog.new_version" = "새 버전";
+"embark.update.dialog.release_date" = "출시일";
+"embark.update.dialog.force_update" = "강제 업데이트";
+"embark.update.dialog.update_content" = "업데이트 내용";
+"embark.update.dialog.install_update" = "업데이트 설치";
+"embark.update.dialog.downloading" = "다운로드 중...";
+"embark.update.dialog.skip_version" = "이 버전 건너뛰기";
+"embark.update.dialog.download_progress" = "다운로드 진행률";
+"embark.update.dialog.installing" = "업데이트 설치 중...";
+"embark.update.dialog.last_check" = "마지막 확인";
+
+"embark.about.version" = "버전 %@";
+"embark.about.check_update" = "업데이트 확인";
+"embark.about.check_update.subtitle" = "새 버전이 사용 가능한지 확인";
+"embark.about.check_update.now" = "지금 확인";
+"embark.about.website" = "공식 웹사이트";
+"embark.about.feedback" = "피드백 보내기";
+"embark.about.sponsor_support" = "후원 지원";
+"embark.about.privacy_policy" = "개인정보 처리방침";
+"embark.about.terms_of_service" = "이용약관";
+
+"embark.update.error.invalid_config_url" = "잘못된 업데이트 구성 URL";
+"embark.update.error.check_failed" = "업데이트 확인 실패: %@";
+"embark.update.error.system_version_too_low" = "시스템 버전이 너무 낮습니다. 이 업데이트를 설치할 수 없습니다";
+"embark.update.error.invalid_download_url" = "잘못된 다운로드 URL";
+"embark.update.error.download_failed" = "다운로드 실패: %@";
+"embark.update.error.invalid_download_file" = "다운로드된 파일이 유효하지 않습니다";
+"embark.update.error.unsupported_file_format" = "지원되지 않는 파일 형식: %@";
+"embark.update.error.dmg_mount_failed" = "DMG 파일 마운트 실패, 오류 코드: %@";
+"embark.update.error.dmg_mount_error" = "DMG 파일 마운트 실패: %@";
+"embark.update.error.app_not_found_in_dmg" = "DMG 파일에서 애플리케이션을 찾을 수 없습니다";
+"embark.update.error.cannot_determine_install_dir" = "설치 디렉토리를 확인할 수 없습니다";
+"embark.update.error.install_app_failed" = "애플리케이션 설치 실패: %@";
+"embark.update.error.save_update_file_failed" = "업데이트 파일 저장 실패: %@";
+"embark.update.error.download_file_validation_failed" = "다운로드된 파일 검증 실패";
+"embark.update.install.complete.message" = "새 버전이 성공적으로 설치되었습니다. 업데이트를 적용하려면 애플리케이션을 재시작해야 합니다.";
+"embark.update.install.complete.restart_now" = "지금 재시작";
+"embark.update.install.complete.restart_later" = "나중에 재시작";
+
+"embark.statusbar.menu.app_settings" = "앱 설정";
+"embark.statusbar.menu.check_update" = "업데이트 확인";
+"embark.statusbar.menu.about" = "정보";
+"embark.statusbar.menu.quit" = "종료";
+"embark.statusbar.upgrade.title" = "Pro로 업그레이드";
+"embark.statusbar.upgrade.subtitle.trial" = "체험 기간이 %ld일 남았습니다";
+"embark.statusbar.upgrade.subtitle.free" = "전체 경험 잠금 해제";
+
+"embark.onboarding.welcome" = "%@에 오신 것을 환영합니다";
+"embark.onboarding.start" = "시작";
+"embark.onboarding.launch" = "앱 실행";
+"embark.onboarding.config.title" = "초기 설정";
+"embark.onboarding.permission.title" = "접근성 권한 필요";
+"embark.onboarding.permission.subtitle" = "전역 단축키에 필요합니다";
+"embark.onboarding.permission.open_settings" = "설정 열기";
+"embark.onboarding.permission.not_granted" = "접근성 권한이 아직 부여되지 않았습니다";
+
+/* App System */
+"system.message.save" = "저장";
+"system.message.update" = "업데이트";
+"system.message.confirm" = "확인";
+"system.message.cancel" = "취소";
+"system.message.tip" = "작업 팁 표시";
+"system.message.delay.seconds" = "%@초";
+"system.message.not_found" = "데이터 없음";
+"system.message.add" = "추가";
+"system.message.loading" = "로딩 중...";
+"system.message.updating" = "업데이트 중...";
+
+"system.info.ok" = "확인";
+"system.info.open" = "%@ 열기";
+"system.info.enable" = "%@ 활성화";
+"system.info.auto" = "자동";
+"system.info.custom" = "사용자 정의";
+"system.info.none" = "없음";
+"system.info.features" = "기능";
+"system.info.rename" = "이름 변경";
+"system.info.delete" = "삭제";
+
+"system.settings.exclude.title" = "제외 앱";
+"system.settings.exclude.empty" = "제외된 앱 없음";
+
+"system.certificate.expiration.title" = "개발 인증서가 곧 만료됩니다";
+"system.certificate.expiration.message" = "개발 인증서가 %@에 만료됩니다 (%@일 남음).\n\n애플리케이션을 계속 사용하려면 인증서를 업데이트하거나 개발자에게 연락하여 새 버전을 받으세요.";
+"system.certificate.expiration.remind_later" = "나중에 알림";
+"system.certificate.expiration.never_remind" = "다시 알리지 않음";
+
+"system.shortcut.dialog.title" = "단축키 설정";
+"system.shortcut.dialog.recording" = "녹음 중... (클릭하여 중지)";
+"system.shortcut.dialog.click_to_set" = "클릭하여 단축키 설정";
+"system.shortcut.dialog.conflict_warning" = "단축키가 다른 앱에서 사용되고 있습니다. 다시 설정하세요";
+"system.shortcut.dialog.conflict_info" = "단축키가 다른 앱 기능과 충돌하지 않는지 확인하세요";
+"system.shortcut.dialog.clear_shortcut" = "단축키 지우기";
+
+"system.permission.automation.required.title" = "자동화 권한 필요";
+"system.permission.automation.required.message" = "이 기능은 다른 애플리케이션을 제어하기 위해 자동화 권한이 필요합니다. 시스템 설정에서 권한을 부여해 주세요.";
+"system.permission.automation.open_settings" = "설정 열기";
+
+"system.systemui.title" = "시스템 UI";
+"system.systemui.showAll" = "모두 표시";
+"system.systemui.hideMenuBar" = "메뉴 바 숨기기";
+"system.systemui.hideDock" = "Dock 숨기기";
+"system.systemui.hideBoth" = "메뉴 막대 및 Dock 숨기기";
+
+/* Mod Launcher */
+"launcher.install.panel.system" = "시스템";
+"launcher.install.panel.work" = "작업";
+"launcher.install.panel.entertainment" = "엔터테인먼트";
+"launcher.install.panel.personal" = "개인";
+"launcher.install.panel.network" = "네트워크";
+"launcher.install.panel.folder" = "폴더";
+"launcher.install.panel.tools" = "도구";
+
+"launcher.shortcut.dialog.title" = "단축키 설정";
+"launcher.shortcut.dialog.description" = "\"%@\"의 시작 단축키 설정";
+
+"launcher.settings.general.text_size" = "텍스트 크기: %@";
+"launcher.settings.general.tab_key" = "Tab 키";
+"launcher.settings.general.tab_key.disabled" = "비활성화";
+"launcher.settings.general.tab_key.to_search" = "검색으로";
+"launcher.settings.general.tab_key.bidirectional" = "양방향";
+"launcher.settings.general.search_scope" = "검색 범위";
+"launcher.settings.general.search_scope.all" = "모든 앱과 링크";
+"launcher.settings.general.search_scope.all_apps" = "모든 앱";
+"launcher.settings.general.search_scope.other_apps" = "기타 앱";
+"launcher.settings.link.icon_size" = "아이콘 크기: %@";
+"launcher.settings.panel.width" = "너비: %@";
+"launcher.settings.panel.background_stretch" = "배경 늘리기";
+"launcher.settings.panel.text_bold" = "텍스트 굵게";
+"launcher.settings.link.thumbnails" = "썸네일 표시";
+"launcher.settings.link.multi_line" = "다중 라인 이름";
+"launcher.settings.general.title" = "일반";
+"launcher.settings.button.general" = "일반";
+"launcher.settings.button.content" = "콘텐츠";
+"launcher.settings.general.shortcut.title" = "Launcher 단축키";
+"launcher.settings.general.shortcut.description" = "Launcher 단축키는 \"%@\" 기능에서 설정됩니다";
+"launcher.settings.general.shortcut.go_to_settings" = "설정으로 이동";
+"launcher.settings.background.title" = "배경";
+"launcher.settings.background.color" = "색상";
+"launcher.settings.background.color_transparency" = "색상 투명도: %@%%";
+"launcher.settings.background.image" = "이미지";
+"launcher.settings.background.image_select" = "이미지 선택";
+"launcher.settings.background.image_transparency" = "이미지 투명도: %@%%";
+"launcher.settings.background.image_blur" = "이미지 흐림: %@";
+"launcher.settings.background.blur" = "전체 흐림: %@%%";
+"launcher.settings.panel.title" = "패널";
+"launcher.settings.panel.background_color" = "배경색";
+"launcher.settings.panel.text_color" = "텍스트 색상";
+"launcher.settings.panel.backgound_transparency" = "배경 투명도: %@%%";
+"launcher.settings.link.title" = "링크";
+"launcher.settings.link.text_color" = "텍스트 색상";
+"launcher.settings.link.background_color" = "배경 색상";
+"launcher.settings.link.backgound_transparency" = "배경 투명도: %@%%";
+
+"launcher.proxy.host" = "호스트";
+"launcher.proxy.port" = "포트";
+"launcher.proxy.username_optional" = "사용자 이름(선택 사항)";
+"launcher.proxy.password_optional" = "비밀번호(선택 사항)";
+
+"launcher.dialog.add.title" = "링크 추가";
+"launcher.dialog.setting.title" = "링크 설정";
+
+"launcher.panel.settings.add_folder" = "폴더 추가";
+"launcher.panel.settings.add_file" = "파일 추가";
+"launcher.panel.settings.add_web" = "HandyWeb 추가";
+"launcher.panel.settings.edit_name" = "이름 편집";
+"launcher.panel.settings.remove_panel" = "패널 제거";
+"launcher.panel.settings.visible" = "표시";
+"launcher.panel.settings.invisible" = "숨김";
+"launcher.panel.settings.custom_width" = "사용자 정의 너비";
+"launcher.panel.settings.drag_panel" = "패널 드래그";
+"launcher.panel.width.dialog.title" = "사용자 정의 패널 너비";
+"launcher.panel.width.dialog.panel" = "패널: %@";
+"launcher.panel.width.dialog.custom_width" = "사용자 정의 너비:";
+"launcher.panel.width.dialog.use_default" = "기본 너비 사용";
+"launcher.panel.drag.app_hint" = "앱을 여기로 드래그";
+"launcher.panel.dialog.edit_name.title" = "패널 이름 편집";
+"launcher.panel.dialog.edit_name.field" = "패널 이름";
+"launcher.panel.dialog.remove.title" = "패널 \"%@\"을(를) 제거하시겠습니까?";
+"launcher.panel.apps.title" = "앱 목록";
+
+"launcher.link.context.add_to_panel" = "패널에 추가";
+"launcher.link.context.open_directory" = "디렉토리 열기";
+"launcher.link.context.bind_shortcut" = "단축키 바인딩";
+"launcher.link.context.custom_name" = "사용자 정의 이름";
+"launcher.link.context.settings" = "설정";
+"launcher.link.context.visible" = "표시";
+"launcher.link.context.invisible" = "숨김";
+"launcher.link.context.remove" = "제거";
+
+"launcher.add.folder.dialog.choose_folder" = "폴더 선택";
+"launcher.add.folder.dialog.folder_path" = "폴더 경로";
+"launcher.add.file.dialog.choose_file" = "파일 선택";
+"launcher.add.file.dialog.file_path" = "파일 경로";
+"launcher.add.panel.dialog.title" = "패널 추가";
+"launcher.add.subpanel.dialog.title" = "하위 패널 추가";
+"launcher.add.web.updating" = "업데이트 중...";
+"launcher.add.web.adding" = "추가 중...";
+"launcher.add.web.use_proxy" = "프록시 사용";
+"launcher.add.web.set_proxy" = "프록시 설정";
+"launcher.add.web.show_in_menubar" = "메뉴 바에 표시";
+"launcher.add.web.dialog.title_placeholder" = "제목";
+"launcher.add.web.dialog.url_placeholder" = "URL (예: https://www.example.com)";
+
+"launcher.browser.pin.tooltip" = "창을 상단에 고정";
+"launcher.browser.keepalive.tooltip" = "닫을 때 백그라운드에서 창 활성 유지";
+"launcher.browser.menubar.tooltip" = "메뉴 바에 표시";
+"launcher.browser.mobilemode.tooltip" = "모바일/데스크톱 모드 전환";
+"launcher.browser.zoom" = "확대/축소";
+"launcher.browser.set_default" = "기본 URL로 설정";
+"launcher.browser.copy_url" = "현재 URL 복사";
+"launcher.browser.copied" = "클립보드에 복사됨";
+"launcher.browser.clear_data" = "웹사이트 데이터 지우기";
+"launcher.browser.clear_all_data" = "모든 웹사이트 데이터 지우기";
+
+"launcher.dialog.custom_name.title" = "사용자 정의 이름";
+"launcher.dialog.add_panel.title" = "패널 추가";
+"launcher.dialog.add_panel.field" = "패널 이름";
+
+"launcher.loading.data" = "데이터 로딩 중...";
+
+"launcher.error.select_folder_failed" = "폴더 선택 실패: %@";
+"launcher.error.select_file_failed" = "파일 선택 실패: %@";
+"launcher.error.path_not_exists" = "선택된 경로가 존재하지 않습니다";
+"launcher.error.path_not_folder" = "선택된 경로가 폴더가 아닙니다";
+"launcher.error.path_not_file" = "선택된 경로가 파일이 아닙니다";
+"launcher.error.title" = "오류";
+
+/* Mod Swift */
+"swift.struct.maximize.mode.max" = "최대화";
+"swift.struct.maximize.mode.full" = "전체 화면";
+"swift.struct.close.mode.standard" = "표준";
+"swift.struct.close.mode.direct" = "직접";
+"swift.struct.close.mode.force" = "강제";
+
+"swift.settings.tab.window" = "창";
+"swift.settings.minimize" = "창 최소화";
+"swift.settings.restore" = "창 복원";
+"swift.settings.maximize" = "창 최대화";
+"swift.settings.close" = "창 닫기";
+"swift.settings.tooltip" = "마우스 위치의 창에 적용";
+
+"swift.keyboard.title" = "Swift 키보드";
+"swift.keyboard.settings.note" = "(더블 탭)";
+"swift.keyboard.settings.detection" = "키 감지";
+
+"swift.mouse.title" = "Swift 마우스";
+"swift.mouse.settings.note" = "(우클릭 제스처)";
+"swift.mouse.settings.distance" = "트리거 거리";
+"swift.mouse.settings.show_path" = "Show Gesture Path";
+"swift.mouse.settings.path_transparency" = "경로 투명도";
+
+/* Mod Magnet */
+"magnet.settings.magnet_drag.title" = "드래그 창";
+"magnet.settings.magnet_drag.message" = "Magnet 드래그 %@";
+"magnet.settings.magnet_resize.title" = "크기 조정 창";
+"magnet.settings.magnet_resize.message" = "Magnet 크기 조정 %@";
+"magnet.settings.grid.title" = "그리드";
+"magnet.settings.shortcut_info" = "+ 마우스 이동: ";
+"magnet.settings.magnet_drag.description" = "창이 마우스 위치를 따라 이동합니다";
+"magnet.settings.magnet_resize.description" = "창 크기가 마우스 위치를 따라 조정됩니다";
+"magnet.settings.grid.3x2" = "3x2 그리드";
+"magnet.settings.grid.4x4" = "4x4 그리드";
+"magnet.settings.grid.6x6" = "6x6 그리드";
+"magnet.settings.grid.8x8" = "8x8 그리드";
+"magnet.settings.grid.10x10" = "10x10 그리드";
+"magnet.settings.grid.12x12" = "12x12 그리드";
+"magnet.settings.grid.status.disabled" = "비활성화됨";
+"magnet.settings.grid.status.all_enabled" = "모두 활성화됨";
+"magnet.settings.grid.status.partial_enabled" = "%@ 활성화됨";
+
+/* Mod Slide */
+"slide.message.feasible" = "도킹을 실현하려면 창 위치가 화면 가장자리에 있어야 합니다";
+"slide.message.fullscreen" = "전체 화면 창은 고정할 수 없습니다";
+
+"slide.settings.shortcut.description" = "화면 가장자리 근처의 창에서 단축키를 눌러 도킹 및 언도킹합니다";
+"slide.settings.tolerance.title" = "트리거 판정 거리";
+"slide.settings.margin.title" = "숨겨진 창 여백";
+"slide.settings.delay.title" = "트리거 판정 시간";
+"slide.settings.auto_undock.title" = "드래그 시 자동 고정 해제";
+
+/* Mod Focus */
+"focus.settings.style.title" = "스타일";
+"focus.settings.style.clean" = "깨끗한";
+"focus.settings.style.dot" = "점";
+"focus.settings.style.grain" = "입자";
+"focus.settings.color.title" = "색상";
+"focus.settings.color.solid" = "단색";
+"focus.settings.color.staticGradient" = "정적 그라데이션";
+"focus.settings.color.dynamicGradient" = "동적 그라데이션";
+"focus.settings.transparency.title" = "투명도";
+"focus.settings.blur.title" = "흐림";
+"focus.settings.animation.title" = "애니메이션";
+"focus.settings.animation.duration" = "지속 시간";
+"focus.settings.top_transparent.title" = "상단 투명";
+"focus.settings.top_transparent.distance" = "거리";
+"focus.settings.shortcut.description" = "Focus 기능을 켜거나 끄는 단축키";
+
+/* Mod Switcher */
+"switcher.mode.select" = "선택";
+"switcher.mode.switch" = "전환";
+"switcher.settings.mode.title" = "모드";
+"switcher.settings.size.title" = "크기";
+"switcher.settings.width.title" = "너비";
+"switcher.settings.maxItemsPerColumn.title" = "열당 최대 항목 수";
+"switcher.settings.shortcut.description" = "단축키를 사용하여 창 전환";
+"switcher.size.small" = "작음";
+"switcher.size.medium" = "중간";
+"switcher.size.large" = "큼";
+
+/* Mod Space */
+"space.restore.mode.keep" = "다른 창 유지";
+"space.restore.mode.minimize" = "다른 창 최소화";
+"space.restore.mode.close" = "다른 창 닫기";
+"space.screen.title" = "화면";
+"space.screen.all" = "모두";
+"space.screen.current" = "현재";
+"space.focus.mode.keep" = "동작 없음";
+"space.focus.mode.enable" = "활성화";
+"space.focus.mode.disable" = "비활성화";
+"space.snapshot.name" = "스냅샷 이름";
+"space.settings.restore.mode" = "복원 모드";
+"space.settings.shortcut.description" = "단축키를 사용하여 선택 창 열기";
+"space.settings.snapshots.title" = "스냅샷";
+"space.settings.snapshots.empty" = "아직 스냅샷이 없습니다";
+"space.settings.skip_minimized" = "최소화된 창 건너뛰기";
+"space.button.apps" = "앱";
+"space.button.screens" = "화면";
+"space.dialog.remove.title" = "스냅샷 \"%@\"을(를) 삭제하시겠습니까?";
+"space.dialog.edit.title" = "스냅샷 이름 편집";
+"space.dialog.new" = "새 스냅샷";
+"space.dialog.update" = "스냅샷 편집";
+"space.dialog.duplicate" = "복제";
+"space.dialog.duplicate.title" = "스냅샷 복제";
+"space.legacy.title" = "이전 데이터";
+"space.legacy.message" = "죄송합니다! 이 버전의 데이터에 신뢰성 문제가 있습니다. 삭제 후 새 스냅샷을 생성해 주세요.";
+"space.window.list" = "창 목록";
+"space.window.empty" = "창이 없습니다";

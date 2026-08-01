@@ -1,0 +1,374 @@
+/* App Embark */
+"embark.config.theme.system" = "跟隨系統";
+"embark.config.theme.light" = "淺色";
+"embark.config.theme.dark" = "深色";
+
+"embark.struct.settings.tab.general" = "通用";
+"embark.struct.settings.tab.about" = "關於";
+"embark.struct.feature.launcher.title" = "Launcher";
+"embark.struct.feature.swift.title" = "Swift";
+"embark.struct.feature.magnet.title" = "Magnet";
+"embark.struct.feature.space.title" = "Space";
+"embark.struct.feature.focus.title" = "Focus";
+"embark.struct.feature.slide.title" = "Slide";
+"embark.struct.feature.switcher.title" = "Switcher";
+
+"embark.appsettings.window.title" = "設定";
+"embark.featurecenter.window.title" = "功能中心";
+"embark.updatedialog.window.title" = "%@ 檢查更新";
+
+"embark.appsettings.general.launch_at_login" = "登入時啟動";
+"embark.appsettings.general.launch_at_login.subtitle" = "在系統啟動時自動執行應用程式";
+"embark.appsettings.general.language" = "語言";
+"embark.appsettings.general.language.subtitle" = "選擇應用程式介面語言";
+"embark.appsettings.general.language.changed.message" = "語言更改將在重新啟動應用程式後生效。";
+"embark.appsettings.general.language.changed.restart" = "立即重新啟動";
+"embark.appsettings.general.language.changed.later" = "稍後";
+"embark.appsettings.general.theme" = "主題";
+"embark.appsettings.general.theme.subtitle" = "選擇應用程式外觀主題";
+"embark.appsettings.general.auto_check_update" = "自動檢查更新";
+"embark.appsettings.general.auto_check_update.subtitle" = "啟用後應用程式會定期檢查是否有最新版本需要更新";
+"embark.appsettings.general.icon.title" = "應用圖示";
+
+"embark.update.dialog.checking" = "正在檢查更新...";
+"embark.update.dialog.error.title" = "檢查更新失敗";
+"embark.update.dialog.retry" = "重試";
+"embark.update.dialog.no_update.title" = "已是最新版本";
+"embark.update.dialog.current_version" = "當前版本";
+"embark.update.dialog.new_version" = "新版本";
+"embark.update.dialog.release_date" = "發布日期";
+"embark.update.dialog.force_update" = "強制更新";
+"embark.update.dialog.update_content" = "更新內容";
+"embark.update.dialog.install_update" = "安裝更新";
+"embark.update.dialog.downloading" = "下載中...";
+"embark.update.dialog.skip_version" = "跳過此版本";
+"embark.update.dialog.download_progress" = "下載進度";
+"embark.update.dialog.installing" = "正在安裝更新...";
+"embark.update.dialog.last_check" = "上次檢查";
+
+"embark.about.version" = "版本 %@";
+"embark.about.check_update" = "檢查更新";
+"embark.about.check_update.subtitle" = "檢查是否有新版本可用";
+"embark.about.check_update.now" = "立即檢查";
+"embark.about.website" = "官方網站";
+"embark.about.feedback" = "意見回饋";
+"embark.about.sponsor_support" = "贊助支持";
+"embark.about.privacy_policy" = "隱私政策";
+"embark.about.terms_of_service" = "使用條款";
+
+"embark.update.error.invalid_config_url" = "無效的更新配置URL";
+"embark.update.error.check_failed" = "檢查更新失敗: %@";
+"embark.update.error.system_version_too_low" = "系統版本過低, 無法安裝此更新";
+"embark.update.error.invalid_download_url" = "無效的下載URL";
+"embark.update.error.download_failed" = "下載失敗: %@";
+"embark.update.error.invalid_download_file" = "下載檔案無效";
+"embark.update.error.unsupported_file_format" = "不支援的檔案格式: %@";
+"embark.update.error.dmg_mount_failed" = "DMG檔案掛載失敗, 錯誤代碼: %@";
+"embark.update.error.dmg_mount_error" = "掛載DMG檔案失敗: %@";
+"embark.update.error.app_not_found_in_dmg" = "在DMG檔案中未找到應用程式";
+"embark.update.error.cannot_determine_install_dir" = "無法確定安裝目錄";
+"embark.update.error.install_app_failed" = "安裝應用程式失敗: %@";
+"embark.update.error.save_update_file_failed" = "儲存更新檔案失敗: %@";
+"embark.update.error.download_file_validation_failed" = "下載檔案驗證失敗";
+"embark.update.install.complete.message" = "新版本已成功安裝。需要重新啟動應用程式以套用更新。";
+"embark.update.install.complete.restart_now" = "立即重新啟動";
+"embark.update.install.complete.restart_later" = "稍後重新啟動";
+
+"embark.statusbar.menu.app_settings" = "應用設定";
+"embark.statusbar.menu.check_update" = "檢查更新";
+"embark.statusbar.menu.about" = "關於";
+"embark.statusbar.menu.quit" = "結束";
+"embark.statusbar.upgrade.title" = "升級到專業版";
+"embark.statusbar.upgrade.subtitle.trial" = "試用期還有%ld天";
+"embark.statusbar.upgrade.subtitle.free" = "解鎖完整體驗";
+
+"embark.onboarding.welcome" = "歡迎使用 %@";
+"embark.onboarding.start" = "開始";
+"embark.onboarding.launch" = "啟動應用";
+"embark.onboarding.config.title" = "初始設定";
+"embark.onboarding.permission.title" = "需要輔助功能權限";
+"embark.onboarding.permission.subtitle" = "全域快捷鍵需要此權限";
+"embark.onboarding.permission.open_settings" = "打開設定";
+"embark.onboarding.permission.not_granted" = "應用還沒有輔助功能權限";
+
+/* App System */
+"system.message.save" = "儲存";
+"system.message.update" = "更新";
+"system.message.confirm" = "確定";
+"system.message.cancel" = "取消";
+"system.message.tip" = "顯示操作提示";
+"system.message.delay.seconds" = "%@秒";
+"system.message.not_found" = "暫無資料";
+"system.message.add" = "新增";
+"system.message.loading" = "載入中...";
+"system.message.updating" = "更新中...";
+
+"system.info.ok" = "好的";
+"system.info.open" = "開啟 %@";
+"system.info.enable" = "啟用 %@";
+"system.info.auto" = "自動";
+"system.info.custom" = "自定義";
+"system.info.none" = "無";
+"system.info.features" = "功能";
+"system.info.rename" = "重新命名";
+"system.info.delete" = "刪除";
+
+"system.settings.exclude.title" = "排除應用";
+"system.settings.exclude.empty" = "暫無排除應用";
+
+"system.certificate.expiration.title" = "開發憑證即將過期";
+"system.certificate.expiration.message" = "您的開發憑證將在 %@ 過期（還有 %@ 天）。\n\n為了繼續使用應用程式, 請更新憑證或聯繫開發者獲取新版本。";
+"system.certificate.expiration.remind_later" = "稍後提醒";
+"system.certificate.expiration.never_remind" = "不再提醒";
+
+"system.shortcut.dialog.title" = "設定快捷鍵";
+"system.shortcut.dialog.recording" = "正在錄製... (點擊停止)";
+"system.shortcut.dialog.click_to_set" = "點擊設定快捷鍵";
+"system.shortcut.dialog.conflict_warning" = "快捷鍵已被其他應用程式使用, 請重新設定";
+"system.shortcut.dialog.conflict_info" = "請確保快捷鍵不易與其他應用程式功能衝突";
+"system.shortcut.dialog.clear_shortcut" = "清理快捷鍵";
+
+"system.permission.automation.required.title" = "需要自動化權限";
+"system.permission.automation.required.message" = "此功能需要自動化權限來控制其他應用程式。請在系統設定中授予權限。";
+"system.permission.automation.open_settings" = "開啟設定";
+
+"system.systemui.title" = "系統介面";
+"system.systemui.showAll" = "顯示全部";
+"system.systemui.hideMenuBar" = "隱藏選單列";
+"system.systemui.hideDock" = "隱藏程式塢";
+"system.systemui.hideBoth" = "隱藏選單列和程式塢";
+
+/* Mod Launcher */
+"launcher.install.panel.system" = "系統";
+"launcher.install.panel.work" = "工作";
+"launcher.install.panel.entertainment" = "娛樂";
+"launcher.install.panel.personal" = "個人";
+"launcher.install.panel.network" = "網路";
+"launcher.install.panel.tools" = "工具";
+"launcher.install.panel.folder" = "資料夾";
+
+"launcher.shortcut.dialog.title" = "設定快捷鍵";
+"launcher.shortcut.dialog.description" = "為「%@」設定啟動快捷鍵";
+
+"launcher.settings.general.text_size" = "文字大小: %@";
+"launcher.settings.general.tab_key" = "Tab鍵";
+"launcher.settings.general.tab_key.disabled" = "禁用";
+"launcher.settings.general.tab_key.to_search" = "到搜尋";
+"launcher.settings.general.tab_key.bidirectional" = "雙向";
+"launcher.settings.general.search_scope" = "搜尋範圍";
+"launcher.settings.general.search_scope.all" = "所有應用和連結";
+"launcher.settings.general.search_scope.all_apps" = "所有應用";
+"launcher.settings.general.search_scope.other_apps" = "其他應用";
+"launcher.settings.link.icon_size" = "圖示大小: %@";
+"launcher.settings.panel.width" = "寬度: %@";
+"launcher.settings.panel.background_stretch" = "背景拉伸";
+"launcher.settings.panel.text_bold" = "文字加粗";
+"launcher.settings.link.thumbnails" = "顯示縮圖";
+"launcher.settings.link.multi_line" = "多行名稱";
+"launcher.settings.general.title" = "通用";
+"launcher.settings.button.general" = "通用";
+"launcher.settings.button.content" = "內容";
+"launcher.settings.general.shortcut.title" = "啟動台快捷鍵";
+"launcher.settings.general.shortcut.description" = "啟動台快捷鍵在\"%@\"功能中設置";
+"launcher.settings.general.shortcut.go_to_settings" = "前往設定";
+"launcher.settings.background.title" = "背景";
+"launcher.settings.background.color" = "顏色";
+"launcher.settings.background.color_transparency" = "顏色透明度: %@%%";
+"launcher.settings.background.image" = "圖片";
+"launcher.settings.background.image_select" = "選擇圖片";
+"launcher.settings.background.image_transparency" = "圖片透明度: %@%%";
+"launcher.settings.background.image_blur" = "圖片模糊度: %@";
+"launcher.settings.background.blur" = "整體模糊度: %@%%";
+"launcher.settings.panel.title" = "面板";
+"launcher.settings.panel.background_color" = "背景顏色";
+"launcher.settings.panel.text_color" = "文字顏色";
+"launcher.settings.panel.backgound_transparency" = "背景透明度: %@%%";
+"launcher.settings.link.title" = "連結";
+"launcher.settings.link.text_color" = "文字顏色";
+"launcher.settings.link.background_color" = "背景顏色";
+"launcher.settings.link.backgound_transparency" = "背景透明度: %@%%";
+
+"launcher.proxy.host" = "主機";
+"launcher.proxy.port" = "連接埠";
+"launcher.proxy.username_optional" = "使用者名稱（選用）";
+"launcher.proxy.password_optional" = "密碼（選用）";
+
+"launcher.dialog.add.title" = "新增連結";
+"launcher.dialog.setting.title" = "設定連結";
+
+"launcher.panel.settings.add_folder" = "新增資料夾";
+"launcher.panel.settings.add_file" = "新增檔案";
+"launcher.panel.settings.add_web" = "添加HandyWeb";
+"launcher.panel.settings.edit_name" = "修改名稱";
+"launcher.panel.settings.remove_panel" = "移除面板";
+"launcher.panel.settings.visible" = "顯示";
+"launcher.panel.settings.invisible" = "隱藏";
+"launcher.panel.settings.custom_width" = "自訂寬度";
+"launcher.panel.settings.drag_panel" = "拖動面板";
+"launcher.panel.width.dialog.title" = "自訂面板寬度";
+"launcher.panel.width.dialog.panel" = "面板: %@";
+"launcher.panel.width.dialog.custom_width" = "自訂寬度:";
+"launcher.panel.width.dialog.use_default" = "使用預設寬度";
+"launcher.panel.drag.app_hint" = "拖動應用到這裡";
+"launcher.panel.dialog.edit_name.title" = "修改面板名稱";
+"launcher.panel.dialog.edit_name.field" = "面板名稱";
+"launcher.panel.dialog.remove.title" = "確認移除面板 \"%@\" 嗎？";
+"launcher.panel.apps.title" = "應用程式列表";
+
+"launcher.link.context.add_to_panel" = "添加到面板";
+"launcher.link.context.open_directory" = "開啟目錄";
+"launcher.link.context.bind_shortcut" = "綁定快捷鍵";
+"launcher.link.context.custom_name" = "自訂名稱";
+"launcher.link.context.settings" = "設定";
+"launcher.link.context.visible" = "顯示";
+"launcher.link.context.invisible" = "隱藏";
+"launcher.link.context.remove" = "移除";
+
+"launcher.add.folder.dialog.choose_folder" = "選擇資料夾";
+"launcher.add.folder.dialog.folder_path" = "資料夾路徑";
+"launcher.add.file.dialog.choose_file" = "選擇檔案";
+"launcher.add.file.dialog.file_path" = "檔案路徑";
+"launcher.add.panel.dialog.title" = "新增面板";
+"launcher.add.subpanel.dialog.title" = "新增子面板";
+"launcher.add.web.updating" = "更新中...";
+"launcher.add.web.adding" = "新增中...";
+"launcher.add.web.use_proxy" = "使用代理";
+"launcher.add.web.set_proxy" = "設定代理";
+"launcher.add.web.show_in_menubar" = "顯示在選單列";
+"launcher.add.web.dialog.title_placeholder" = "標題";
+"launcher.add.web.dialog.url_placeholder" = "網址 (例如 https://www.example.com)";
+
+"launcher.browser.pin.tooltip" = "固定視窗到頂部";
+"launcher.browser.keepalive.tooltip" = "關閉時在背景保持視窗活動";
+"launcher.browser.menubar.tooltip" = "顯示在選單列";
+"launcher.browser.mobilemode.tooltip" = "切換行動端/桌面端模式";
+"launcher.browser.zoom" = "縮放";
+"launcher.browser.set_default" = "設為預設網址";
+"launcher.browser.copy_url" = "複製目前網址";
+"launcher.browser.copied" = "已複製到剪貼簿";
+"launcher.browser.clear_data" = "清除網站資料";
+"launcher.browser.clear_all_data" = "清除所有網站資料";
+
+"launcher.dialog.custom_name.title" = "自訂名稱";
+"launcher.dialog.add_panel.title" = "添加面板";
+"launcher.dialog.add_panel.field" = "面板名稱";
+
+"launcher.loading.data" = "資料載入中...";
+
+"launcher.error.select_folder_failed" = "選擇資料夾失敗: %@";
+"launcher.error.select_file_failed" = "選擇檔案失敗: %@";
+"launcher.error.path_not_exists" = "選擇的路徑不存在";
+"launcher.error.path_not_folder" = "選擇的路徑不是資料夾";
+"launcher.error.path_not_file" = "選擇的路徑不是檔案";
+"launcher.error.title" = "錯誤";
+
+/* Mod Swift */
+"swift.struct.maximize.mode.max" = "滿屏";
+"swift.struct.maximize.mode.full" = "全屏";
+"swift.struct.close.mode.standard" = "標準";
+"swift.struct.close.mode.direct" = "直接";
+"swift.struct.close.mode.force" = "強力";
+
+"swift.settings.tab.window" = "視窗";
+"swift.settings.minimize" = "最小化視窗";
+"swift.settings.restore" = "恢復視窗";
+"swift.settings.maximize" = "最大化視窗";
+"swift.settings.close" = "關閉視窗";
+"swift.settings.tooltip" = "對滑鼠所在的視窗生效";
+
+"swift.keyboard.title" = "Swift 鍵盤";
+"swift.keyboard.settings.note" = "(雙擊按鍵)";
+"swift.keyboard.settings.detection" = "按鍵判定";
+
+"swift.mouse.title" = "Swift 滑鼠";
+"swift.mouse.settings.note" = "(右鍵手勢)";
+"swift.mouse.settings.distance" = "觸發距離";
+"swift.mouse.settings.show_path" = "顯示手勢路徑";
+"swift.mouse.settings.path_transparency" = "路徑透明度";
+
+/* Mod Magnet */
+"magnet.settings.magnet_drag.title" = "拖動視窗";
+"magnet.settings.magnet_drag.message" = "Magnet 拖動 %@";
+"magnet.settings.magnet_resize.title" = "調整視窗";
+"magnet.settings.magnet_resize.message" = "Magnet 調整 %@";
+"magnet.settings.grid.title" = "網格";
+"magnet.settings.shortcut_info" = "+ 滑鼠移動 : ";
+"magnet.settings.magnet_drag.description" = "視窗會跟隨滑鼠位置移動";
+"magnet.settings.magnet_resize.description" = "視窗大小會跟隨滑鼠位置調整";
+"magnet.settings.grid.3x2" = "3x2網格";
+"magnet.settings.grid.4x4" = "4x4網格";
+"magnet.settings.grid.6x6" = "6x6網格";
+"magnet.settings.grid.8x8" = "8x8網格";
+"magnet.settings.grid.10x10" = "10x10網格";
+"magnet.settings.grid.12x12" = "12x12網格";
+"magnet.settings.grid.status.disabled" = "未開啟";
+"magnet.settings.grid.status.all_enabled" = "全部啟用";
+"magnet.settings.grid.status.partial_enabled" = "%@已啟用";
+
+/* Mod Slide */
+"slide.message.feasible" = "視窗位置需要在螢幕邊緣才可以實現停靠";
+"slide.message.fullscreen" = "全螢幕視窗無法停靠";
+
+"slide.settings.shortcut.description" = "將靠近螢幕兩側的視窗按下快捷鍵以實現視窗停靠和取消停靠";
+"slide.settings.tolerance.title" = "觸發判定距離";
+"slide.settings.margin.title" = "隱藏視窗邊距";
+"slide.settings.delay.title" = "觸發判定時間";
+"slide.settings.auto_undock.title" = "拖曳視窗即取消停靠";
+
+/* Mod Focus */
+"focus.settings.style.title" = "樣式";
+"focus.settings.style.clean" = "乾淨";
+"focus.settings.style.dot" = "點";
+"focus.settings.style.grain" = "顆粒";
+"focus.settings.color.title" = "顏色";
+"focus.settings.color.solid" = "純色";
+"focus.settings.color.staticGradient" = "靜態漸層";
+"focus.settings.color.dynamicGradient" = "動態漸層";
+"focus.settings.transparency.title" = "透明度";
+"focus.settings.blur.title" = "模糊度";
+"focus.settings.animation.title" = "動畫";
+"focus.settings.animation.duration" = "時長";
+"focus.settings.top_transparent.title" = "頂部透明";
+"focus.settings.top_transparent.distance" = "距離";
+"focus.settings.shortcut.description" = "開啟或關閉 Focus 功能的快捷鍵";
+
+/* Mod Switcher */
+"switcher.mode.select" = "選擇模式";
+"switcher.mode.switch" = "切換模式";
+"switcher.settings.mode.title" = "模式";
+"switcher.settings.size.title" = "尺寸";
+"switcher.settings.width.title" = "寬度";
+"switcher.settings.maxItemsPerColumn.title" = "每欄最大項目數";
+"switcher.settings.shortcut.description" = "可使用快捷鍵切換視窗";
+"switcher.size.small" = "小";
+"switcher.size.medium" = "中";
+"switcher.size.large" = "大";
+
+/* Mod Space */
+"space.restore.mode.keep" = "保持其他視窗";
+"space.restore.mode.minimize" = "最小化其他視窗";
+"space.restore.mode.close" = "關閉其他視窗";
+"space.screen.title" = "螢幕";
+"space.screen.all" = "所有";
+"space.screen.current" = "當前";
+"space.focus.mode.keep" = "無操作";
+"space.focus.mode.enable" = "開啟";
+"space.focus.mode.disable" = "關閉";
+"space.snapshot.name" = "快照名稱";
+"space.settings.restore.mode" = "恢復模式";
+"space.settings.shortcut.description" = "使用快捷鍵開啟選擇視窗";
+"space.settings.snapshots.title" = "快照清單";
+"space.settings.snapshots.empty" = "還沒有快照";
+"space.settings.skip_minimized" = "跳過最小化視窗";
+"space.button.apps" = "應用程式";
+"space.button.screens" = "螢幕";
+"space.dialog.remove.title" = "確認刪除快照 \"%@\" 嗎？";
+"space.dialog.edit.title" = "編輯快照名稱";
+"space.dialog.new" = "新建快照";
+"space.dialog.update" = "修改快照";
+"space.dialog.duplicate" = "複製";
+"space.dialog.duplicate.title" = "複製快照";
+"space.legacy.title" = "舊資料";
+"space.legacy.message" = "抱歉! 此版本資料有可靠性問題, 請在刪除後重新建立新快照";
+"space.window.list" = "視窗列表";
+"space.window.empty" = "暫無視窗";

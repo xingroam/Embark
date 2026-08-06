@@ -5,8 +5,11 @@ struct DonationView: View {
   @StateObject private var languageManager = LanguageManager.s
 
   private func openDonationPage() {
-    guard let url = URL(string: "https://payrequest.me/potor") else { return }
-    NSWorkspace.shared.open(url)
+    DefineManager.GetSponsorUrl { result in
+      guard case .success(let sponsorUrl) = result,
+            let url = URL(string: sponsorUrl) else { return }
+      NSWorkspace.shared.open(url)
+    }
   }
 
   var body: some View {

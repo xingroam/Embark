@@ -142,7 +142,7 @@ struct WebDialog: View {
     }
     .onAppear {
       dm.setDialogShowing(true)
-      WebManager.GetWebList { result in
+      DefineManager.GetWebList { result in
         if case .success(let list) = result {
           self.webList = list
         }

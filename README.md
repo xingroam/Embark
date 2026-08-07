@@ -3,10 +3,10 @@
   <h3 align="center">Embark</h3>
   <p align="center">Launcher and workspace tools for macOS</p>
   <p align="center">
-    <a href="https://github.com/potor-com/Embark/blob/main/LICENSE.md">
-    <img src="https://img.shields.io/github/license/potor-com/Embark" alt="License"></a>
-    <a href="https://github.com/potor-com/Embark/releases">
-    <img src="https://img.shields.io/github/downloads/potor-com/Embark/total.svg" alt="Downloads"></a>
+    <a href="https://github.com/xingroam/Embark/blob/main/LICENSE.md">
+    <img src="https://img.shields.io/github/license/xingroam/Embark" alt="License"></a>
+    <a href="https://github.com/xingroam/Embark/releases">
+    <img src="https://img.shields.io/github/downloads/xingroam/Embark/total.svg" alt="Downloads"></a>
   </p>
 </div>
 
@@ -38,7 +38,7 @@ Embark also includes focus tools for reducing distractions, magnet-style window 
 
 ### Download
 
-[https://github.com/potor-com/Embark/releases](https://github.com/potor-com/Embark/releases)
+[https://github.com/xingroam/Embark/releases](https://github.com/xingroam/Embark/releases)
 
 ### System Requirements
 

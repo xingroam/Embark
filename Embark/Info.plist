@@ -18,6 +18,6 @@
 	<key>SUEnableAutomaticChecks</key>
 	<false/>
 	<key>SUFeedURL</key>
-	<string>https://potor-com.github.io/Embark/appcast.xml</string>
+	<string>https://xingroam.github.io/Embark/appcast.xml</string>
 </dict>
 </plist>

@@ -6,14 +6,14 @@ struct EmbarkInfo {
   static let buildNumber = { Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "" }()
   static let bundleIdentifier = { Bundle.main.bundleIdentifier ?? "" }()
   static let bundleIdentifierLowercased = { Bundle.main.bundleIdentifier?.lowercased() ?? "" }()
-  static let website = "https://github.com/potor-com/Embark"
-  static let feedbackIssueUrl = "https://github.com/potor-com/Embark/issues/new"
+  static let website = "https://github.com/xingroam/Embark"
+  static let feedbackIssueUrl = "https://github.com/xingroam/Embark/issues/new"
 
   static let dbFile = "\(name).db"
   static let logFile = "\(name).log"
   static let launcherBgFile = "Launcher.bg"
 
-  static let embarkJson = "https://potor-com.github.io/Embark/embark.json"
+  static let embarkJson = "https://xingroam.github.io/Embark/embark.json"
   static let embarkJsonHour = 24
 
   static var currentYear: String {

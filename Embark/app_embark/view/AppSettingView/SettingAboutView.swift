@@ -84,7 +84,7 @@ struct SettingAboutView: View {
         .buttonStyle(PlainButtonStyle())
         Line()
         Button(action: {
-          if let url = URL(string: "https://potor-com.github.io/Embark/TERMS.md") {
+          if let url = URL(string: "https://xingroam.github.io/Embark/TERMS.md") {
             NSWorkspace.shared.open(url)
           }
         }) {
@@ -102,7 +102,7 @@ struct SettingAboutView: View {
         .buttonStyle(PlainButtonStyle())
         Line()
         Button(action: {
-          if let url = URL(string: "https://potor-com.github.io/Embark/PRIVACY.md") {
+          if let url = URL(string: "https://xingroam.github.io/Embark/PRIVACY.md") {
             NSWorkspace.shared.open(url)
           }
         }) {

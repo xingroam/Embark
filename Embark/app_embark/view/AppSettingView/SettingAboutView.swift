@@ -121,7 +121,7 @@ struct SettingAboutView: View {
       }
       .settingStyle()
       .padding(.bottom, 12)
-      Text("©️ \(EmbarkInfo.currentYear) Potor")
+      Text("©️ \(EmbarkInfo.currentYear) XingRoam")
         .font(.system(size: 12))
         .foregroundColor(.secondary)
         .padding(.bottom, 8)

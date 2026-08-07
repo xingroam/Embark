@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>CFBundleIdentifier</key>
-  <string>com.potor.Embark</string>
+  <string>xingroam.Embark</string>
   <key>NSAppleEventsUsageDescription</key>
   <string>Embark needs to control system UI elements like Dock and Menu Bar for Focus mode.</string>
 	<key>LSMinimumSystemVersion</key>

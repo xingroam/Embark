@@ -151,7 +151,7 @@ class Embark {
   private func oneDaily() {
     DailyTaskManager.s.Append(taskKey: EmbarkInfo.name + "OneDailyTask", interval: 24 * 60 * 60) {
       if EmbarkConfig.appAutoCheckUpdate {
-        UpdateManager.s.checkForUpdates(hasUpdateShowDialog: true)
+        UpdateManager.s.checkForUpdatesInBackground()
       }
     }
   }

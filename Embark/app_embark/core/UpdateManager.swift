@@ -36,25 +36,36 @@ final class UpdateManager: ObservableObject {
   }
 
   func checkUpdateDialog() {
-    checkForUpdates()
-  }
-
-  func checkForUpdates(hasUpdateShowDialog: Bool = false) {
-    _ = hasUpdateShowDialog
     DispatchQueue.main.async {
       self.state = .checking
       #if canImport(Sparkle)
       self.updaterController.checkForUpdates(nil)
       self.state = .idle
       #else
-      let failedText = self.languageManager.localizedString("embark.update.error.check_failed")
-      self.state = .error(failedText)
-      let alert = NSAlert()
-      alert.messageText = self.languageManager.localizedString("embark.update.dialog.error.title")
-      alert.informativeText = failedText
-      alert.addButton(withTitle: self.languageManager.localizedString("system.info.ok"))
-      alert.runModal()
+      self.showCheckFailedAlert()
       #endif
     }
+  }
+
+  func checkForUpdatesInBackground() {
+    DispatchQueue.main.async {
+      self.state = .checking
+      #if canImport(Sparkle)
+      self.updaterController.updater.checkForUpdatesInBackground()
+      self.state = .idle
+      #else
+      self.showCheckFailedAlert()
+      #endif
+    }
+  }
+
+  private func showCheckFailedAlert() {
+    let failedText = languageManager.localizedString("embark.update.error.check_failed")
+    state = .error(failedText)
+    let alert = NSAlert()
+    alert.messageText = languageManager.localizedString("embark.update.dialog.error.title")
+    alert.informativeText = failedText
+    alert.addButton(withTitle: languageManager.localizedString("system.info.ok"))
+    alert.runModal()
   }
 }
